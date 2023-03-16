@@ -6,7 +6,9 @@ namespace DependencyInversion
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Store store = new Store();
+
+            Console.WriteLine(store.GetPromotionToday());
         }
     }
 }

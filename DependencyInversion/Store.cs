@@ -9,11 +9,11 @@ namespace DependencyInversion
         public string GetPromotionToday()
         {
 
-            if (DateTime.Now.DayOfWeek == DayOfWeek.Monday)
+            if (DateTime.Now.DayOfWeek == DayOfWeek.Monday)   // WE CAN NOT TEST THIS CODE, UNTIL MONDAY :( THIS IS UNACCEPTABLE !!!
             {
                 return "MondayPromotion";
             }
-            if (DateTime.Now.DayOfWeek == DayOfWeek.Friday)
+            if (DateTime.Now.DayOfWeek == DayOfWeek.Friday)   // WE CAN NOT TEST THIS CODE, UNTIL MONDAY :( THIS IS UNACCEPTABLE !!!
             {
                 return "FridayPromotion";
             }
